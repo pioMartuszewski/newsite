@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block 'content' %}
+
+<p>Author List</p>
+
+<ul>
+{% for author in authors %}
+
+    <li> <a href="{% url 'shelf:author_detail' author.id %}"> {{author.last_name}}  ,  {{author.first_name}}</a> </li>
+
+
+    {% endfor %}
+</ul>
+{% endblock %}
+
+

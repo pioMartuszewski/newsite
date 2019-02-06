@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block 'content' %}
+
+<p>Detail view</p>
+
+    {{ author }}
+
+<p><a href="{% url 'shelf:my_author_list' %}">  "Back to author list"</a></p>
+
+{% endblock %}
+
+

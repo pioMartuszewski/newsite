@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book List Sub Page</title>
+</head>
+<body>
+    <p> Book list </p>
+    <table border="3px">
+        <!-- To jest jezyk template tag-->
+        {% for b in allBooks %}
+            <tr>
+                <td bgcolor="#bbb"> {{ b.title }}</td>
+                <td bgcolor="#ccc"> {{ b.isbn }}</td>
+                <td bgcolor="#ddd"> {{ b.author }}</td>
+                <td bgcolor="#eee"> {{ b.publisher }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
