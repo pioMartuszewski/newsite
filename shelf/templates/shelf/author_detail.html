@@ -4,8 +4,16 @@
 
 <p>Detail view</p>
 
-    {{ author }}
+    {{ author.first_name}} , {{ author.last_name }}
 
+    <ul>
+    {% for b in author.books.all %}
+
+        <li> {{b.title}} </li>
+
+    {% endfor %}
+
+    </ul>
 <p><a href="{% url 'shelf:my_author_list' %}">  "Back to author list"</a></p>
 
 {% endblock %}

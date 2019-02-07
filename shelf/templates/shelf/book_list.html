@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Book List Sub Page</title>
-</head>
-<body>
-    <p> Book list </p>
+{% extends 'base.html' %}
+
+{% block 'content' %}
+
+<p> Book list </p>
     <table border="3px">
         <!-- To jest jezyk template tag-->
         {% for b in allBooks %}
@@ -16,6 +13,4 @@
                 <td bgcolor="#eee"> {{ b.publisher }}</td>
             </tr>
         {% endfor %}
-    </table>
-</body>
-</html>
+{% endblock %}

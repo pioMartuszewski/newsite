@@ -1,15 +1,23 @@
 <!DOCTYPE html>
+{% load staticfiles  %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="{% static 'css\shelf.css' %}" rel="stylesheet" />
     <title>Content</title>
 </head>
 <body>
-    <p> </p>
 
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
+
+
+    <div id ='content'>
     {% block 'content'  %}
-
     {% endblock %}
+    </div>
 
 </body>
 </html>
