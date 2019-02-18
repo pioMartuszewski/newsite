@@ -15,20 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls import include, url
+from django.conf.urls import include
+from users.views import *
 
-
-
-from shelf.views import AuthorListView
-from shelf.views import AuthorDetailView
-
-from shelf.views import PublisherListView
-from shelf.views import BookListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('authors/', admin.site.urls),
+    path('shelf/', include("shelf.urls", namespace="shelf")),
 
-    path("shelf/", include("shelf.urls", namespace="shelf")),
+    path('library/', include("library.urls", namespace="library")),
+    path('users/', include('users.urls', namespace='users')),
+    path('', HomePageView.as_view(), name='home'),
 
 ]
+

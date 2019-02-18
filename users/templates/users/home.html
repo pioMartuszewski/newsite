@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block 'content' %}
+
+
+<p> <h4> This is HOME PAGE </h4> </p>
+
+<div id="user_pane">
+    <a href="{% url 'users:login' %}"> Login </a> <br/>
+    <a href=""> Register </a>
+</div>
+
+
+{% endblock %}

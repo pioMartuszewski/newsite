@@ -2,9 +2,9 @@
 
 {% block 'content' %}
 
-<p>Detail view</p>
+<h3><p>Author Detail View</p></h3>
 
-    {{ author.first_name}} , {{ author.last_name }}
+    {{ author.first_name}} - {{ author.last_name }}
 
     <ul>
     {% for b in author.books.all %}

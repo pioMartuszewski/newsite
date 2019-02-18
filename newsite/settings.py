@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'shelf',
+    'library',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -143,12 +145,15 @@ USE_TZ = True
 #pod jakim adresem sa pliki statyczne
 STATIC_URL = '/static/'
 
-TEMPLATES_DIRS = (
+TEMPLATES_DIRS = [
     os.path.join(BASE_DIR, 'templates'),
-
-)
+    os.path.join(BASE_DIR, 'templates'),
+]
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 
 ]
+
+
+LOGIN_REDIRECT_URL = 'home'

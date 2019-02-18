@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block 'content' %}
+
+    <p>Plik index.html</p>
+
+    <div id="all_books" >
+        <p>All books</p>
+        <ul>
+    {% for b in books %}
+        <li>{{ b }} </li>
+        {% endfor %}
+    </ul>
+    </div>
+
+    <div id="av_books" >
+        <p>Avaible books</p>
+    <ul>
+    {% for b in av_books %}
+        <li> {{ b }} {{ b.author.first_name }} , {{ b.actual_count}}  </li>
+
+        {% endfor %}
+    </ul>
+    </div>
+
+    <p>
+        Hello: {{ name }}
+    </p>
+
+    <input type="button" value="Check Avaible">
+
+<div id="place">
+
+</div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    const check_av = () => {
+        $.ajax({
+            url: '{% url "library:ajax_books" %}',
+            type: 'get',
+            data : '',
+            success : function(data) {
+               var text = "";
+               if (data.length > 0)
+               {
+                    text = "Avaible books list:"
+                    text += '<ul>'
+                    for(var i = 0; i < data.length; i++)
+                    {
+                      var result = data[i];
+                      var title = result.name;
+                      text += '<li>'  + title  + '</li>';
+                    }
+                    text += '</ul>';
+               }
+               else
+               {
+                    text = "No Books Avaible"
+               }
+               console.log(data.length);
+
+                $('#place').html(text);
+            }
+        });
+    }
+
+    $('input:button').click(check_av);
+
+});
+
+</script>
+{% endblock %}
