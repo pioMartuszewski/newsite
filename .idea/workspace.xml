@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6972af20-4606-4b74-917a-78f180b9c280" name="Default Changelist" comment="Ok-static">
-      <change afterPath="$PROJECT_DIR$/library/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/templates/base_library.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/templates/library/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shelf/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/user_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/json_resp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/login_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/user_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+    <list default="true" id="6972af20-4606-4b74-917a-78f180b9c280" name="Default Changelist" comment="18.02.2019">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shelf/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shelf/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shelf/templates/shelf/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shelf/templates/shelf/author_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shelf/templates/shelf/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shelf/templates/shelf/author_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shelf/templates/shelf/my_author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shelf/templates/shelf/my_author_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shelf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shelf/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shelf/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="393">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -148,11 +125,6 @@
               <item name="newsite" type="462c0819:PsiDirectoryNode" />
               <item name="newsite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="newsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsite" type="462c0819:PsiDirectoryNode" />
-              <item name="shelf" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -233,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549541353493</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="18.02.2019">
+      <created>1550479409947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550479409968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="18.02.2019">
+      <created>1550479813033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550479813033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -247,20 +233,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" x="11" y="265" width="1344" height="197" id="Terminal" order="8" weight="0.2700491" />
+      <window_info active="true" anchor="bottom" x="11" y="265" width="1344" height="197" id="Terminal" order="8" visible="true" weight="0.2700491" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -289,7 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ok-static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ok-static" />
+    <MESSAGE value="18.02.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.02.2019" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -695,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shelf/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="393">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
